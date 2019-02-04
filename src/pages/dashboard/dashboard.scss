@@ -4,17 +4,17 @@ page-dashboard {
     .height{
         height: 240px !important;
     }
-
-    // .food {
-    //     background-image: url('../assets/imgs/food-1.jpg');
-    // }
     .card-background-page {
 
         ion-card {
           position: relative;
           text-align: center;
+          border-radius: 8px;
         }
       
+        .card{
+          opacity: 0.5;
+        }
         .card-title {
           position: absolute;
           top: 36%;
@@ -34,6 +34,10 @@ page-dashboard {
         .card-image
         {
             height: 250px;
+        }
+
+        .card:hover{
+          opacity: 1.0;
         }
       
       }
