@@ -7,12 +7,19 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>payments</ion-title>
+    <ion-title>Payments</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-
+<ion-content class="card-background-page">
+    <ion-card class="card" (click)="cardpayment()">
+        <img class="card-image" src="../assets/imgs/creditcards.jpg" />
+        <div class="card-title">Card Payment</div>
+      </ion-card>
+      <ion-card class="card" (click)="cashpayment()">
+        <img class="card-image" src="../assets/imgs/services.jpg" />
+        <div class="card-title">Cash Payment</div>
+      </ion-card>
 </ion-content>

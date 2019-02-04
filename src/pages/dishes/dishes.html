@@ -34,4 +34,16 @@
       </ion-card>
     </ion-slide>
   </ion-slides>
+
+<ion-content class="card-background-page">
+    <h6>Starters</h6>
+    <ion-slides ager style="height: 40%;">
+
+        <ion-slide *ngFor="let dish of dishes_starter">
+            <ion-card>
+                <img [src]="dish.item_img"/>
+                <div class="card-title">{{dish.item_name}}</div>
+              </ion-card>
+        </ion-slide>
+      </ion-slides>
 </ion-content>
