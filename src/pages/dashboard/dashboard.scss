@@ -10,10 +10,7 @@ page-dashboard {
           position: relative;
           text-align: center;
           border-radius: 8px;
-        }
-      
-        .card{
-          opacity: 0.5;
+          background-color: #454545;
         }
         .card-title {
           position: absolute;
@@ -21,24 +18,11 @@ page-dashboard {
           font-size: 2.0em;
           width: 100%;
           font-weight: bold;
-          color: #fff;
-        }
-      
-        .card-subtitle {
-          font-size: 1.0em;
-          position: absolute;
-          top: 52%;
-          width: 100%;
-          color: #fff;
+          color: #fff000;
         }
         .card-image
         {
             height: 250px;
         }
-
-        .card:hover{
-          opacity: 1.0;
-        }
-      
       }
 }
