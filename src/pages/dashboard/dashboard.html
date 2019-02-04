@@ -16,25 +16,25 @@
 <ion-content class="card-background-page">
 
 
-  <ion-card class="card">
+  <ion-card class="card" (click)="dishes()">
     <img class="card-image" src="../assets/imgs/food.png" />
     <div class="card-title">Dishes</div>
   </ion-card>
-  <ion-card class="card">
+  <ion-card class="card" (click)="Service()">
     <img class="card-image" src="../assets/imgs/services.jpg" />
     <div class="card-title">Service</div>
   </ion-card>
-  <ion-card class="card">
+  <ion-card class="card" (click)="Demand()">
     <img class="card-image" src="../assets/imgs/demand.jpg" />
     <div class="card-title">Demand</div>
   </ion-card>
-  <ion-card class="card">
+  <ion-card class="card" (click)="Payments()">
     <img class="card-image" src="../assets/imgs/food-1.jpg" />
     <div class="card-title">Payments</div>
   </ion-card>
 
   <ion-fab right bottom>
-      <button ion-fab mini><ion-icon name="star"></ion-icon></button>
+      <button ion-fab mini><ion-icon name="paper"></ion-icon></button>
   </ion-fab>
 
 </ion-content>

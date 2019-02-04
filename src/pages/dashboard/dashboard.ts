@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import{DishesPage} from '../dishes/dishes';
+import{ServicePage} from '../service/service';
+import{DemandPage} from '../demand/demand';
+import{PaymentsPage} from '../payments/payments';
 
 
 /**
@@ -21,7 +25,22 @@ export class DashboardPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DashboardPage');
-    
+
+  }
+// main page navigations
+  dishes(){
+    this.navCtrl.push(DishesPage);
   }
 
+  Service(){
+    this.navCtrl.push(ServicePage);
+  }
+
+  Demand(){
+    this.navCtrl.push(DemandPage);
+  }
+
+  Payments(){
+    this.navCtrl.push(PaymentsPage);
+  }
 }
