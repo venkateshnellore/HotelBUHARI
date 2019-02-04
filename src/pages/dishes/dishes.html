@@ -12,38 +12,35 @@
 
 </ion-header>
 <ion-content class="card-background-page">
-  <ion-item>
-    <b>Start</b>
-  </ion-item>
-  <ion-slides class="card-height">
-    <ion-slide>
-        <ion-card class="card" >
-          <img class="card-image" src="../assets/imgs/soup-2.jpg" />
-          <div class="card-title">Soups</div>
-        </ion-card>
-    </ion-slide>
-    <ion-slide>
-      <ion-card>
-        <ion-card-header>
-          Card Header
-        </ion-card-header>
-        <ion-card-content>
-          Add card content here!
-        </ion-card-content>
-
-      </ion-card>
-    </ion-slide>
-  </ion-slides>
-
-<ion-content class="card-background-page">
+  <ion-content class="card-background-page">
     <h6>Starters</h6>
     <ion-slides ager style="height: 40%;">
 
-        <ion-slide *ngFor="let dish of dishes_starter">
-            <ion-card>
-                <img [src]="dish.item_img"/>
-                <div class="card-title">{{dish.item_name}}</div>
-              </ion-card>
-        </ion-slide>
-      </ion-slides>
-</ion-content>
+      <ion-slide *ngFor="let dish of dishes_starter" (click)="itemdetails(dish)">
+        <ion-card>
+          <img [src]="dish.item_img" />
+          <div class="card-title">{{dish.item_name}}</div>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+    <h6>Main Course </h6>
+    <ion-slides ager style="height: 40%;">
+
+      <ion-slide *ngFor="let dish of dishes_starter" (click)="itemdetails(dish)">
+        <ion-card>
+          <img [src]="dish.item_img" />
+          <div class="card-title">{{dish.item_name}}</div>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+    <h6>Today's special</h6>
+    <ion-slides ager style="height: 40%;">
+
+      <ion-slide *ngFor="let dish of dishes_starter" (click)="itemdetails(dish)">
+        <ion-card>
+          <img [src]="dish.item_img" />
+          <div class="card-title">{{dish.item_name}}</div>
+        </ion-card>
+      </ion-slide>
+    </ion-slides>
+  </ion-content>

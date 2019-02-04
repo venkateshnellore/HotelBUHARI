@@ -12,6 +12,7 @@ import{DishesPage} from '../pages/dishes/dishes';
 import{ServicePage} from '../pages/service/service';
 import{DemandPage} from '../pages/demand/demand';
 import {PaymentsPage} from '../pages/payments/payments';
+import {ItempagePage}  from '../pages/itempage/itempage';
 @NgModule({
   declarations: [
     MyApp,
@@ -20,7 +21,8 @@ import {PaymentsPage} from '../pages/payments/payments';
     DishesPage,
     ServicePage,
     DemandPage,
-    PaymentsPage
+    PaymentsPage,
+    ItempagePage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import {PaymentsPage} from '../pages/payments/payments';
     DishesPage,
     ServicePage,
     DemandPage,
-    PaymentsPage
+    PaymentsPage,
+    ItempagePage
   ],
   providers: [
     StatusBar,
