@@ -1,3 +1,28 @@
 page-dishes {
+    .height{
+        height: 240px !important;
+    }
+    .card-background-page {
+        background-color: #dddddd;
 
+        ion-card {
+          position: relative;
+          text-align: center;
+          border-radius: 8px;
+          background-color: #454545;
+        }
+        .card-title {
+          position: absolute;
+          top: 36%;
+          font-size: 2.0em;
+          width: 100%;
+          font-weight: bold;
+          color: #fff000;
+        }
+        .card-image
+        {
+            height: 250px;
+            opacity: 0.7;
+        }
+      }
 }

@@ -5,6 +5,7 @@ page-dashboard {
         height: 240px !important;
     }
     .card-background-page {
+        background-color: #dddddd;
 
         ion-card {
           position: relative;
@@ -23,6 +24,7 @@ page-dashboard {
         .card-image
         {
             height: 250px;
+            opacity: 0.9;
         }
       }
 }
