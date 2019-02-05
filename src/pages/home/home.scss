@@ -1,11 +1,17 @@
 page-home {
 
     .offerimg {
-        background-image: url('../assets/imgs/logo-12.jpg');
+        background-image: url('../assets/imgs/home-1.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
 
     .offerimg1 {
-        background-image: url('../assets/imgs/biriyani-2.jpg');
+        background-image: url('../assets/imgs/home-2.jpeg');
+        background-position: center;
         background-repeat: no-repeat;
+        background-size: cover;
     }
 }
