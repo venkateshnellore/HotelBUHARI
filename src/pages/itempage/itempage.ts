@@ -18,6 +18,7 @@ export class ItempagePage {
   public itemDetails:any=[];
   public title;
   public desc;
+  public img;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.itemDetails=this.navParams.get("item_details");
@@ -27,6 +28,7 @@ export class ItempagePage {
     console.log('ionViewDidLoad ItempagePage',this.itemDetails);
     this.title=this.itemDetails.item_name;
     this.desc =this.itemDetails.item_description;
+    this.img = this.itemDetails.item_img;
   }
 
 }

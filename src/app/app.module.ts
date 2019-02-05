@@ -13,6 +13,7 @@ import{ServicePage} from '../pages/service/service';
 import{DemandPage} from '../pages/demand/demand';
 import {PaymentsPage} from '../pages/payments/payments';
 import {ItempagePage}  from '../pages/itempage/itempage';
+
 @NgModule({
   declarations: [
     MyApp,

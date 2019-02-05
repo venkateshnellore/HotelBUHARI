@@ -40,15 +40,17 @@ export class DishesPage {
     ];
 
     this.dishes_main = [
-      {item_id:1,item_img:'../assets/imgs/main-1.jpg',item_name:"Chicken Biriyani",item_description:"hello darling",
+      {item_id:1,item_img:'../assets/imgs/main-6.jpg',item_name:"Tiffen Full",item_description:"Dosa is a type of pancake originating from the Indian subcontinent, made from a fermented batter. It is somewhat similar to a crepe in appearance. Its main ingredients are rice and black gram. ... Traditionally, dosa is served hot along with sambar, a stuffing of potatoes, and chutney",
+    item_amount:230,item_helthtips:""},
+      {item_id:2,item_img:'../assets/imgs/main-1.jpg',item_name:"Chicken Biriyani",item_description:"hello darling",
     item_amount:230,item_helthtips:"take one soup daily"},
-    {item_id:2,item_img:'../assets/imgs/main-2.jpg',item_name:"Mutton Biriyani",item_description:"hello darling",
+    {item_id:3,item_img:'../assets/imgs/main-2.jpg',item_name:"Mutton Biriyani",item_description:"hello darling",
     item_amount:230,item_helthtips:"take one soup daily"},
-    {item_id:3,item_img:'../assets/imgs/main-3.jpg',item_name:"Fish Dum Biriyani",item_description:"hello darling",
+    {item_id:4,item_img:'../assets/imgs/main-3.jpg',item_name:"Fish Dum Biriyani",item_description:"hello darling",
     item_amount:230,item_helthtips:"take one soup daily"},
-    {item_id:4,item_img:'../assets/imgs/main-4.jpg',item_name:"Vegetable Biriyani",item_description:"hello darling",
+    {item_id:5,item_img:'../assets/imgs/main-4.jpg',item_name:"Vegetable Biriyani",item_description:"hello darling",
     item_amount:230,item_helthtips:"take one soup daily"},
-    {item_id:5,item_img:'../assets/imgs/main-5.jpg',item_name:"Ghee Rice",item_description:"hello darling",
+    {item_id:6,item_img:'../assets/imgs/main-5.jpg',item_name:"Ghee Rice",item_description:"hello darling",
     item_amount:230,item_helthtips:"take one soup daily"}
     ]
   }

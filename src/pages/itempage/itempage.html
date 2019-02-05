@@ -14,12 +14,12 @@
 
 
 <ion-content >
-<img src="../assets/imgs/soup-2.jpg"/>
-<ion-fab right >
-    <button ion-fab mini ><ion-icon name="star"></ion-icon></button>
+<img [src]="img"/>
+<ion-fab right>
+    <button ion-fab mini ><ion-icon name="add"></ion-icon></button>
 </ion-fab>
-<h5>description</h5>
-<p>{{desc}}</p>
 
+<h5 style="padding: 10px;">Description</h5>
+<p style="padding: 10px;">{{desc}}</p>
 
 </ion-content>
