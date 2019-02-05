@@ -25,7 +25,7 @@ export class ItempagePage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ItempagePage',this.itemDetails);
+    console.log('itemdetails',this.itemDetails);
     this.title=this.itemDetails.item_name;
     this.desc =this.itemDetails.item_description;
     this.img = this.itemDetails.item_img;
