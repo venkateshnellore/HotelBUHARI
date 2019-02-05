@@ -36,7 +36,7 @@
     <h6>Today's special</h6>
     <ion-slides ager style="height: 40%;">
 
-      <ion-slide *ngFor="let dish of dishes_starter" (click)="itemdetails(dish)">
+      <ion-slide *ngFor="let dish of todayspecial" (click)="itemdetails(dish)">
         <ion-card>
           <img [src]="dish.item_img" />
           <div class="card-title">{{dish.item_name}}</div>
