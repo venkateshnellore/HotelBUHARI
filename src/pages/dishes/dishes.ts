@@ -17,6 +17,7 @@ import {ItempagePage} from '../itempage/itempage';
 export class DishesPage {
 
   public dishes_starter:any;
+  public main_cource:any=[];
     
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
@@ -37,7 +38,6 @@ export class DishesPage {
     item_amount:230,item_helthtips:"take one soup daily"}
     ]
   }
-
   itemdetails(dish){
   this.navCtrl.push(ItempagePage,{"item_details":dish});
   }
